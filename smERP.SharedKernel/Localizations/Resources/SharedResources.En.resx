@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddedSuccess" xml:space="preserve">
+    <value>AddedSuccessfull</value>
+    <comment>AddedSuccessfull</comment>
+  </data>
+  <data name="BadRequest" xml:space="preserve">
+    <value>Bad Request</value>
+    <comment>Bad Request</comment>
+  </data>
+  <data name="ChangePassFailed" xml:space="preserve">
+    <value>Change Pass Failed</value>
+    <comment>Change Pass Failed</comment>
+  </data>
+  <data name="Created" xml:space="preserve">
+    <value>Created</value>
+    <comment>Create</comment>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>Deleted</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="DeletedFailed" xml:space="preserve">
+    <value>Delete Failed</value>
+    <comment>Deleted Failed</comment>
+  </data>
+  <data name="DeletedSuccess" xml:space="preserve">
+    <value>Deleted Successfully</value>
+    <comment>Deleted Successfully</comment>
+  </data>
+  <data name="EmailExist" xml:space="preserve">
+    <value>Email Already Exists</value>
+    <comment>Email Exist</comment>
+  </data>
+  <data name="FaildToAdd" xml:space="preserve">
+    <value>Faild To Add</value>
+    <comment>Faild To Add</comment>
+  </data>
+  <data name="GetSuccess" xml:space="preserve">
+    <value>Get Successfully</value>
+    <comment>GetSuccessfully</comment>
+  </data>
+  <data name="DoesExist" xml:space="preserve">
+    <value>{0} Already Exist</value>
+    <comment>Is Already Exist</comment>
+  </data>
+  <data name="DoesNotExist" xml:space="preserve">
+    <value>{0} Does Not Exist</value>
+    <comment>Is Not Exist</comment>
+  </data>
+  <data name="MaxLengthis150" xml:space="preserve">
+    <value>Max Length is 150</value>
+    <comment>Max Length is 150</comment>
+  </data>
+  <data name="MaxLengthis250" xml:space="preserve">
+    <value>Max Length is 250</value>
+    <comment>Max Length is 250</comment>
+  </data>
+  <data name="NameArIsExist" xml:space="preserve">
+    <value>NameAr Is Exist</value>
+    <comment>NameAr Is Exist</comment>
+  </data>
+  <data name="NameEnIsExist" xml:space="preserve">
+    <value>NameEn Is Exist</value>
+    <comment>NameEn Is Exist</comment>
+  </data>
+  <data name="NotData" xml:space="preserve">
+    <value>Not Data</value>
+    <comment>Not Data</comment>
+  </data>
+  <data name="NotEmpty" xml:space="preserve">
+    <value>Must Not Empty</value>
+    <comment>Must Not Empty</comment>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>Not Found</value>
+    <comment>Not Found</comment>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+    <comment>Password</comment>
+  </data>
+  <data name="PasswordNotCorrect" xml:space="preserve">
+    <value>Password Not Correct</value>
+    <comment>Password Not Correct</comment>
+  </data>
+  <data name="PasswordNotEqualConfirmPass" xml:space="preserve">
+    <value>Password Not Equal Confirm Pass</value>
+    <comment>Password Not Equal Confirm Pass</comment>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>{0} Is Required</value>
+    <comment>Required</comment>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Success</value>
+    <comment>Success</comment>
+  </data>
+  <data name="UnAuthorized" xml:space="preserve">
+    <value>UnAuthorized</value>
+    <comment>UnAuthorized</comment>
+  </data>
+  <data name="UnprocessableEntity" xml:space="preserve">
+    <value>There are Validation Errors Or Syntax Errors</value>
+    <comment>There are Validation Errors Or Syntax Errors</comment>
+  </data>
+  <data name="Updated" xml:space="preserve">
+    <value>Updated</value>
+    <comment>Updated</comment>
+  </data>
+  <data name="UpdatedSuccess" xml:space="preserve">
+    <value>Updated Successfully</value>
+    <comment>Updated Successfully</comment>
+  </data>
+  <data name="UpdateFailed" xml:space="preserve">
+    <value>Update Failed</value>
+    <comment>Update Failed</comment>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Username</value>
+    <comment>UserName</comment>
+  </data>
+  <data name="UserNameIsExist" xml:space="preserve">
+    <value>Username Is Exist</value>
+    <comment>Username Is Exist</comment>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>Company Name</value>
+  </data>
+  <data name="DatabaseError" xml:space="preserve">
+    <value>Error while saving data</value>
+  </data>
+  <data name="InternalServerError" xml:space="preserve">
+    <value>Server Error</value>
+  </data>
+  <data name="CategoryName" xml:space="preserve">
+    <value>Category Name</value>
+  </data>
+  <data name="BrandName" xml:space="preserve">
+    <value>Brand Name</value>
+  </data>
+  <data name="AttributeName" xml:space="preserve">
+    <value>Attribute Name</value>
+  </data>
+  <data name="AttributeValue" xml:space="preserve">
+    <value>Attribute Value</value>
+  </data>
+  <data name="ProductName" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="ModelNumber" xml:space="preserve">
+    <value>Model Number</value>
+  </data>
+  <data name="ParentCategory" xml:space="preserve">
+    <value>Parent Category</value>
+  </data>
+  <data name="NameAtleastOneLetter" xml:space="preserve">
+    <value>{0} Must be Atleast One Letter</value>
+  </data>
+  <data name="NameEn" xml:space="preserve">
+    <value>English Name</value>
+  </data>
+  <data name="NameAr" xml:space="preserve">
+    <value>Arabic Name</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="ParentCategoryMustHaveNoProduct" xml:space="preserve">
+    <value>Parent Category Must Have No Products That Directly Falls Under It</value>
+  </data>
+  <data name="Brand" xml:space="preserve">
+    <value>Brand</value>
+  </data>
+  <data name="Attribute" xml:space="preserve">
+    <value>Attribute</value>
+  </data>
+  <data name="CategoryMustBeLeaf" xml:space="preserve">
+    <value>Category Cannot Be a Parent To Another Category</value>
+  </data>
+  <data name="Product" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="___ListMustContainAtleastOneItem" xml:space="preserve">
+    <value>{0} Must Contain Atleast One Item</value>
+  </data>
+  <data name="AttributeList" xml:space="preserve">
+    <value>Attribute List</value>
+  </data>
+  <data name="___ListCannotContainDuplicates" xml:space="preserve">
+    <value>{0} Cannot Contain Duplicates</value>
+  </data>
+  <data name="SomeItemsIn___ListAreNotCorrect" xml:space="preserve">
+    <value>Some Items in {0} Are Not Correct</value>
+  </data>
+  <data name="___MustBeAPositiveNumber" xml:space="preserve">
+    <value>{0} Must Be A Positive Number</value>
+  </data>
+  <data name="SellingPrice" xml:space="preserve">
+    <value>Selling Price</value>
+  </data>
+  <data name="BuyingPrice" xml:space="preserve">
+    <value>Buying Price</value>
+  </data>
+  <data name="ProductInstanceDuplicate" xml:space="preserve">
+    <value>There Is A Product With The Same Attributes</value>
+  </data>
+  <data name="Street" xml:space="preserve">
+    <value>Street</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="PostalCode" xml:space="preserve">
+    <value>Postal Code</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="PayedAmount" xml:space="preserve">
+    <value>Payed Amount</value>
+  </data>
+  <data name="PaymentMethod" xml:space="preserve">
+    <value>Payment Method</value>
+  </data>
+  <data name="ShelfLife" xml:space="preserve">
+    <value>Shelf Life</value>
+  </data>
+  <data name="StorageLocation" xml:space="preserve">
+    <value>Storage Location</value>
+  </data>
+  <data name="SerialNumber" xml:space="preserve">
+    <value>SerialNumber</value>
+  </data>
+  <data name="EnteredExpirationDateCannotExceedProductShelfLife" xml:space="preserve">
+    <value>Entered Expiration Date Cannot Exceed Product Default Shelf Life</value>
+  </data>
+  <data name="Branch" xml:space="preserve">
+    <value>Branch</value>
+  </data>
+  <data name="ExpirationDateMustBeInTheFuture" xml:space="preserve">
+    <value>Expiration Date Must Be In The Future</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="___MustBeBetween_And_" xml:space="preserve">
+    <value>{0} Must Be Between {1} And {2}</value>
+  </data>
+  <data name="PasswordOrEmailNotCorrect" xml:space="preserve">
+    <value>Passsword Or/And Email Are Not Correct</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="Claim" xml:space="preserve">
+    <value>Claim</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="___FieldDoesNotMeetCriteria" xml:space="preserve">
+    <value>{0} Does Not Meet Field Criteria</value>
+  </data>
+  <data name="Procurement Transaction" xml:space="preserve">
+    <value>Procurement Transaction</value>
+  </data>
+  <data name="ThisTransactionIsAlreadyProcessed" xml:space="preserve">
+    <value>This Transaction Is Already Processed</value>
+  </data>
+  <data name="PaymentTransaction" xml:space="preserve">
+    <value>Payment Transaction</value>
+  </data>
+  <data name="ThereSomeThingWrongWithImageProvided" xml:space="preserve">
+    <value>There An Error With The Image Uploaded</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Invalid___" xml:space="preserve">
+    <value>Invalid {0}</value>
+  </data>
+  <data name="FileSizeExceedsTheMaximumAllowedSizeOf___MB" xml:space="preserve">
+    <value>File Size Exceeds The Maximum Allowed Size Of {0} MB</value>
+  </data>
+  <data name="AccountDisabledContactAdmin" xml:space="preserve">
+    <value>This account is disabled, contact admin</value>
+  </data>
+  <data name="ProductInstanceMustHaveAtleastOneImage" xml:space="preserve">
+    <value>Produc tInstance Must Have Atleast One Image</value>
+  </data>
+  <data name="FileWasNotDeletedPleaseTryAgainLater" xml:space="preserve">
+    <value>File Was Not Deleted Please Try Again Later</value>
+  </data>
+  <data name="PleaseTryToLoginAgain" xml:space="preserve">
+    <value>Please Try To Login Again</value>
+  </data>
+</root>

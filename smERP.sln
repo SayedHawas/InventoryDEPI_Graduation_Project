@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "smERP.WebApi", "smERP.WebApi\smERP.WebApi.csproj", "{324660CB-16A8-4FAF-9740-CC14E0433102}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "smERP.Domain", "smERP.Domain\smERP.Domain.csproj", "{8174245F-FB57-409E-8F5E-55588BB24715}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "smERP.Persistence", "smERP.Persistence\smERP.Persistence.csproj", "{B809B64A-25A9-43A4-93FC-E0874E17FD53}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "smERP.Application", "smERP.Application\smERP.Application.csproj", "{36A7D1C9-C3AA-441E-A854-B2BA4308A20E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "smERP.SharedKernel", "smERP.SharedKernel\smERP.SharedKernel.csproj", "{323BD7E0-6AC2-401B-B7B2-C073AD4E0D67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "smERP.Infrastructure", "smERP.Infrastructure\smERP.Infrastructure.csproj", "{6D56C21D-4FED-4304-966B-9A7B85A156BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{324660CB-16A8-4FAF-9740-CC14E0433102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{324660CB-16A8-4FAF-9740-CC14E0433102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{324660CB-16A8-4FAF-9740-CC14E0433102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{324660CB-16A8-4FAF-9740-CC14E0433102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8174245F-FB57-409E-8F5E-55588BB24715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8174245F-FB57-409E-8F5E-55588BB24715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8174245F-FB57-409E-8F5E-55588BB24715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8174245F-FB57-409E-8F5E-55588BB24715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B809B64A-25A9-43A4-93FC-E0874E17FD53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B809B64A-25A9-43A4-93FC-E0874E17FD53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B809B64A-25A9-43A4-93FC-E0874E17FD53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B809B64A-25A9-43A4-93FC-E0874E17FD53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A7D1C9-C3AA-441E-A854-B2BA4308A20E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A7D1C9-C3AA-441E-A854-B2BA4308A20E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A7D1C9-C3AA-441E-A854-B2BA4308A20E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A7D1C9-C3AA-441E-A854-B2BA4308A20E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{323BD7E0-6AC2-401B-B7B2-C073AD4E0D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{323BD7E0-6AC2-401B-B7B2-C073AD4E0D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{323BD7E0-6AC2-401B-B7B2-C073AD4E0D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{323BD7E0-6AC2-401B-B7B2-C073AD4E0D67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D56C21D-4FED-4304-966B-9A7B85A156BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D56C21D-4FED-4304-966B-9A7B85A156BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D56C21D-4FED-4304-966B-9A7B85A156BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D56C21D-4FED-4304-966B-9A7B85A156BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74ECEDCA-02F5-47F9-B644-A23047F49174}
+	EndGlobalSection
+EndGlobal
